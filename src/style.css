@@ -1,0 +1,57 @@
+body {
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 110, 255, 0.692);
+  color: aliceblue;
+  padding: 0 150px;
+}
+.header-logo {
+  display: flex;
+  border-bottom: 1px solid;
+  border-radius: 50%;
+}
+
+.header-right {
+  display: flex;
+}
+.header-right:hover {
+  cursor: pointer;
+}
+.questionform {
+  border: 2px solid white;
+  width: 100px;
+  text-align: center;
+  background: blue;
+}
+.answerform {
+  border: 2px solid white;
+  width: 100px;
+  text-align: center;
+  background: red;
+}
+.form {
+  border: 2px solid black;
+  padding: 80px 50px;
+}
+.form h1 {
+  background: blue;
+  color: aliceblue;
+  padding: 10px;
+}
+.must {
+  width: 40px;
+  background: red;
+  border-radius: 25%;
+  color: aliceblue;
+  text-align: center;
+}
+.job {
+  display: flex;
+}
+.t {
+  width: 200px;
+  border-radius: 25px;
+}
