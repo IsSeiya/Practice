@@ -22,42 +22,41 @@
       <div class="form">
         <h1>質問フォーム</h1>
         <div class="job">
-            ご自分で調べましたか<div class="must">必須</div>
+            ご自分で調べましたか
             <select class="t">
                     <option value="1">はい</option>
                     <option value="2">いいえ</option>
                     <option selected>選択してください</option>
             </select>
-        </label>
+        </div>
+        <div class="question">
+          求める回答
+          <textarea></textarea>
         </div>
         <div class="question">
             質問内容
-            <textarea></textarea>
+            <div><textarea></textarea></div>
         </div>
         <div class="question">
             質問内容の背景
             <textarea></textarea>
-        </div><div class="question">
-            求める答え
-            <textarea></textarea>
         </div>
-        <div class="回答者選択">
+        <div class="choseanswer">
             <h1>
                 回答者選択
             </h1>
         </div>
         <div class="job">
-            職業<div class="must">必須</div>
+            職業
             <select class="t">
                     <option value="1">職業</option>
                     <option value="2">職業</option>
                     <option value="3">職業</option>
                     <option selected>選択してください</option>
-                  </select>
-        </label>
+            </select>
         </div>
         <div class="job">
-            保持資格<div class="must">必須</div>
+            保持資格
             <select class="t">
                     <option value="1">資格</option>
                     <option value="2">資格</option>
@@ -67,7 +66,7 @@
         </label>
         </div>
         <div class="job">
-            質問の難易度<div class="must">必須</div>
+            質問の難易度
             <select class="t">
                     <option value="1">初級（1年勤務）</option>
                     <option value="2">中級（5年勤務）</option>
@@ -83,26 +82,25 @@
                     <option value="2">3</option>
                     <option value="3">5</option>
                     <option selected>選択してください</option>
-                  </select>
+            </select>
         </label>
         </div>
         
         <div class="hobbie">
-            趣味<div class="free">任意</div>
-            <input><button>検索</button>
+            趣味
         </div>
         <div class="name">
-            匿名／本名<div class="must">任意</div>
+            匿名／本名
             <select class="t">
                     <option value="1">匿名</option>
                     <option value="2">本名</option>
                     <option value="3">どちらでもよい</option>
                     <option selected>選択してください</option>
-                  </select>
+            </select>
         </label>
         </div>
         <div class="person">
-            性格<div class="must">任意</div>
+            性格
             <select class="t">
                     <option value="1">おだやか</option>
                     <option value="2">せっかち</option>
@@ -114,20 +112,16 @@
            
 
         <div class="response">
-                希望レスポンス時間　　<div class="must">必須</div>
-            <input><button>決定</button>
-
+                希望レスポンス時間
         </label>
         </div>
         <div class="old">
-                年齢　　<div class="must">必須</div>
-                <input type="radio" class="radio" name="add" id="bb"><label for="bb">10代</label>
-                <input type="radio" class="radio" name="add" id="cc"><label for="cc">20代</label>
-                <input type="radio" class="radio" name="add" id="dd"><label for="dd">30代</label>
-                <input type="radio" class="radio" name="add" id="ee"><label for="ee">40代</label>
-                <input type="radio" class="radio" name="add" id="ff"><label for="ff">50代以上</label>
-            </label>
-
+                年齢
+          <input type="radio" class="radio" name="add" id="bb"><label for="bb">10代</label>
+          <input type="radio" class="radio" name="add" id="cc"><label for="cc">20代</label>
+          <input type="radio" class="radio" name="add" id="dd"><label for="dd">30代</label>
+          <input type="radio" class="radio" name="add" id="ee"><label for="ee">40代</label>
+          <input type="radio" class="radio" name="add" id="ff"><label for="ff">50代以上</label>
         </div>
 
         <div class="coment">
@@ -140,16 +134,19 @@
                 <button type="reset">クリア</button>
             </div>
             <div class="right">
-                <button type="submit" class="sub">質問</button>
-                <button type="button">キャンセル</button>
+                <button type="submit" class="submit">質問</button>
+                <button type="button" class="cansel">キャンセル</button>
             </div>
         </div>
       </div>
     </main>
     <aside>
-      <div class="category">
-        <h3>カテゴリー</h3>
-      </div>
+      <header>
+        <div class="category">
+          <h3>カテゴリー</h3>
+        </div>
+      </header>
+
     </aside>
   </body>
 </html>
