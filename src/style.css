@@ -43,14 +43,14 @@ aside {
 .form {
   border: 2px solid black;
   border-radius: 5px;
-  padding: 80px;
+  padding: 80px 100px;
   position: relative;
   background: white;
 }
 .form h1 {
-  background: blue;
+  background: rgb(55, 55, 238);
   color: aliceblue;
-  padding: 10px;
+  padding: 15px;
 }
 .must {
   width: 40px;
@@ -71,12 +71,6 @@ textarea {
   border-radius: 5px;
 }
 
-input {
-  position: absolute;
-  left: 350px;
-  width: 180px;
-  height: 100px;
-}
 .question {
   padding: 15px 0;
 }
@@ -99,12 +93,19 @@ input {
 .old {
   padding: 15px 0;
 }
+.radio:nth-child(1) {
+  padding-left: 100px;
+}
 .t {
   width: 200px;
   height: 25px;
   border-radius: 5px;
   position: absolute;
   left: 350px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
 }
 button {
   background: rgb(204, 204, 204);
