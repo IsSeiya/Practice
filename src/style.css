@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   background-color: rgba(0, 110, 255, 0.692);
   font-size: 20px;
+  border-radius: 5px;
 }
 header {
   display: flex;
@@ -35,48 +36,31 @@ header {
   background: red;
 }
 main {
-  width: 74%;
+  width: 70%;
 }
 aside {
-  width: 26%;
+  width: 28%;
 }
 .form {
   border: 2px solid black;
   border-radius: 5px;
-  padding: 80px;
+  padding: 50px 100px;
   position: relative;
   background: white;
+  margin: 50px 20px 20px 100px;
 }
 .form h1 {
-  background: blue;
+  background: rgb(55, 55, 238);
   color: aliceblue;
-  padding: 10px;
-}
-.must {
-  width: 40px;
-  background: red;
-  border-radius: 25%;
-  color: aliceblue;
-  text-align: center;
-  position: absolute;
-  left: 290px;
+  padding: 15px;
+  border-radius: 5px;
 }
 textarea {
-  display: flex;
-  margin: 10px;
   width: 500px;
   height: 250px;
-  padding-top: 5px;
-  margin-left: 100px;
   border-radius: 5px;
 }
 
-input {
-  position: absolute;
-  left: 350px;
-  width: 180px;
-  height: 100px;
-}
 .question {
   padding: 15px 0;
 }
@@ -93,11 +77,18 @@ input {
 .paerson {
   padding: 15px 0;
 }
-.resonse {
+.response {
   padding: 15px 0;
 }
 .old {
+  display: flex;
   padding: 15px 0;
+}
+.radioarea {
+  padding-left: 200px;
+}
+.radio:nth-child(1) {
+  padding-left: 100px;
 }
 .t {
   width: 200px;
@@ -106,11 +97,15 @@ input {
   position: absolute;
   left: 350px;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+}
 button {
   background: rgb(204, 204, 204);
   border: none;
   border-radius: 5px;
-  width: 200px;
+  width: 180px;
   height: 60px;
   margin-top: 90px;
 }
@@ -118,4 +113,35 @@ button {
   color: white;
   background: rgb(44, 106, 155);
   margin-right: 15px;
+}
+.doublecontet {
+  display: flex;
+  justify-content: space-between;
+}
+.sidecontent {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  background: white;
+  margin: 50px 50px 100px 0;
+  height: 500px;
+}
+.menu li {
+  list-style: none;
+  padding: 5px 0;
+}
+.sidecontent h3 {
+  background: rgb(55, 55, 238);
+  color: aliceblue;
+  padding: 15px 30px;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+.rari button {
+  background: yellowgreen;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
 }
