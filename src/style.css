@@ -36,10 +36,10 @@ header {
   background: red;
 }
 main {
-  width: 65%;
+  width: 70%;
 }
 aside {
-  width: 25%;
+  width: 28%;
 }
 .form {
   border: 2px solid black;
@@ -47,7 +47,7 @@ aside {
   padding: 50px 100px;
   position: relative;
   background: white;
-  margin: 50px 20px;
+  margin: 50px 20px 20px 100px;
 }
 .form h1 {
   background: rgb(55, 55, 238);
@@ -105,7 +105,7 @@ button {
   background: rgb(204, 204, 204);
   border: none;
   border-radius: 5px;
-  width: 200px;
+  width: 180px;
   height: 60px;
   margin-top: 90px;
 }
@@ -117,4 +117,31 @@ button {
 .doublecontet {
   display: flex;
   justify-content: space-between;
+}
+.sidecontent {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  background: white;
+  margin: 50px 50px 100px 0;
+  height: 500px;
+}
+.menu li {
+  list-style: none;
+  padding: 5px 0;
+}
+.sidecontent h3 {
+  background: rgb(55, 55, 238);
+  color: aliceblue;
+  padding: 15px 30px;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+.rari button {
+  background: yellowgreen;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 auto;
 }
